@@ -28,7 +28,7 @@ Console.Write("Введите первое число: ");
 int number3 = int.Parse(Console.ReadLine()!);
 Console.Write("Введите второе число: ");
 int number4 = int.Parse(Console.ReadLine()!);
-Console.Write("Введите первое число: ");
+Console.Write("Введите третье число: ");
 int number5 = int.Parse(Console.ReadLine()!);
 int max = number3;
 
@@ -40,7 +40,7 @@ if (max < number5)
 {
     max = number5;
 }
-Console.WriteLine($"Максимальное число = {max}");
+Console.WriteLine($"Максимальное число из трех введенных= {max}");
 
 
 // Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
@@ -68,7 +68,7 @@ while (i <= A)
 {
     if(i%2==0)
     {
-        Console.Write($"{i}");
+        Console.Write($"{i}  ");
     }
     i++;
 }
